@@ -1,0 +1,11 @@
+<h1><%= t "send_email.greeting_admin" %></h1>
+<h3><%= t "send_email.detail" %></h3>
+<h5><%= t "booking.detail_booking.name_booking" %> <%= @booking&.user.name %></h5>
+<h5><%= t "booking.detail_booking.phone_booking" %> <%= @booking&.user.phone %></h5>
+<h5><%= t "booking.detail_booking.field" %> <%= @booking&.location_name %></h5>
+<h5><%= t "booking.detail_booking.date" %> <%= @booking&.booking_date.to_date.strftime("%d/%m/%Y") %></h5>
+<h5><%= t "booking.detail_booking.time" %> <%= @booking&.time_cost_time %></h5>
+<h5><%= t "booking.detail_booking.code" %> <%= @booking&.yard_code %></h5>
+<h5><%= t "booking.detail_booking.cost" %> <%= @booking&.time_cost_cost %></h5>
+<p><%= t "send_email.title_booking" %></p>
+<%= link_to t("send_email.link"), admin_bookings_url %>

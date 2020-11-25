@@ -1,0 +1,16 @@
+model:
+  default: 255
+  user:
+    email_max: 255
+    name_max: 50
+    password_mini: 6
+    image_size: 1
+    content_type: ["image/png", "image/jpeg"]
+    display_image: "/assets/noimage.jpeg"
+admin_booking:
+  per_page: 10
+  enum_status:
+    pending: "pending"
+    accept: "accept"
+    rejected: "rejected"
+    cancel: "cancel"

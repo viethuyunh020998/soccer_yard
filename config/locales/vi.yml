@@ -1,0 +1,254 @@
+vi:
+  base:
+    title: "Đặt sân bóng nào !!!"
+    name: "Sân bóng đá"
+    location: "Vị trí"
+    cancel: "Hủy bỏ"
+    search: "Tìm kiếm sân bóng đá"
+
+  home:
+    name: "Trang chủ"
+    address: "Địa chỉ: "
+    phone: "Số điện thoại: "
+    previous: "Trước"
+    next: "Sau"
+    option: "Tùy chọn"
+    description: "Đặc tả"
+    save: "Lưu"
+    login: "Đăng nhập"
+    account: "Tài khoản"
+    profile: "Người dùng"
+    setting: "Cài đặt"
+    logout: "Đăng xuất"
+    user: "Người dùng"
+
+    account: "Tài khoản"
+    profile: "Người dùng"
+    setting: "Cài đặt"
+    logout: "Đăng xuất"
+    user: "Người dùng"
+  booking:
+    name: "Đặt sân"
+    yard_name: "Tên sân"
+    yard_code: "Mã sân"
+    yard_type: "Loại sân"
+    total: "Tổng cộng:"
+    delete: "Xóa"
+    price: "Giá tiền"
+    edit: "Sửa"
+    new: "Thêm mới"
+    search: "Tìm kiếm"
+    title_admin:
+      image: "Hình Ảnh"
+      name: "Tên Sân"
+      type: "Loại Sân"
+      time: "Khung giờ"
+      code: "Mã Sân"
+    detail_booking:
+      detail: "Chi tiết đặt sân"
+      status: "Trạng thái:"
+      date_booking: "Ngày đặt sân:"
+      date: "Ngày:"
+      time_booking: "Thời gian đặt sân:"
+      name_booking: "Tên người đặt sân:"
+      phone_booking: "Số điện thoại:"
+      field: "Sân:"
+      time: "Thời gian:"
+      code: "Mã sân:"
+      cost: "Giá tiền sân:"
+      btn_submit: "Đồng ý"
+      btn_cancel: "Hủy đơn"
+      btn_exit: "Thoát"
+      phone_yard: "Số điện thoại của sân:"
+    btn_handle: "Xử lý"
+    btn_view: "Xem"
+    status:
+      pending: "Chờ xử lý"
+      accept: "Đồng ý"
+      rejected: "Từ chối"
+      cancel: "Hủy bỏ"
+
+  login:
+    name: "Đăng nhập"
+    message: "Vui lòng đăng nhập để bình luận"
+    click: "Nhấp vào đây"
+
+  detail:
+    choose: "Chọn sân"
+    date: "Ngày"
+    time: "Thời gian"
+    type: "Loại sân"
+    comment: "Bình luận"
+    reply: "Trả lời"
+    name: "Chi tiết"
+
+  district:
+    name: "Quận(huyện)"
+    tk: "Quận Thanh Khê"
+    st: "Quận Sơn Trà"
+    nhs: "Quận Ngũ Hành Sơn"
+    lc: "Quận Liên Chiểu"
+    hc: "Quận Hải Châu"
+    cl: "Quận Cẩm Lệ"
+    hv: "Huyện Hoà Vang"
+    hs: "Quần đảo Hoàng Sa"
+
+  app_contro:
+    danger: "không tìm thấy Người dùng"
+
+  user_model:
+    error_type: "phải là PNG hoặc JPG"
+    error_size: "là hơn 1MB"
+
+  create:
+    success: "Tạo tài khoản thành công"
+    unsuccess: " Tạo tài khoản không thành công"
+
+  show:
+    warning: "Người dùng không tồn tại"
+
+  update:
+    success: "Hồ sơ cá nhân đã cập nhật"
+
+  destroy:
+    success: "Người dùng đã bị xóa"
+
+  load_user:
+    warning: "Không tìm thấy người dùng!"
+
+  log_in:
+    danger: "Vui lòng hãy đăng nhập !"
+
+  search:
+    danger: "Dữ liệu nhập trống"
+
+  users:
+    new:
+      newu:
+        title: "Đăng kí"
+        h1: "Đăng kí"
+        confirmation: "Xác nhận mật khẩu"
+        phone: "Số điện thoại"
+        createAccount: "Tạo tài khoản"
+  show:
+    about: "Thông tin"
+    userid: "User Id"
+    name: "Tên"
+    email: "Địa chỉ Email"
+    phone: "Số điện thoại"
+    changeima: "Thay đổi ảnh"
+  edit:
+    title: "Chinh Sua"
+    h1: "Chinh Sua"
+    savechange: "Luu Thay doi"
+  index:
+    title: "Danh sách người dùng"
+    h1: "Danh sách người dùng"
+    delete: "Xóa"
+    sure: "Bạn chắc chắn"
+  shared:
+    error_messages:
+      contains: "Biểu mẫu chứa %{errors}"
+      error: "lỗi"
+
+  show:
+    about: "Thông tin"
+    userid: "Id người dùng"
+    name: "Tên"
+    email: "Địa chỉ Email"
+    phone: "Số điện thoại"
+    changeima: "Thay đổi ảnh"
+
+  edit:
+    title: "Chỉnh sửa"
+    h1: "Chỉnh sử biểu mẫu"
+    savechange: "Lưu thay đổi"
+
+  index:
+    title: "Danh sách người dùng"
+    h1: "Danh sách người dùng"
+    delete: "Xóa"
+    sure: "Bạn chắc chắn"
+
+  menu_manager:
+    title: "Tính năng"
+    booking_field: "Quản lý đặt sân"
+    user: "Quản lý người dùng"
+    revenue: "Quản lý doanh thu"
+    field: "Quản lý sân bóng"
+
+  message:
+    pls_login: "Bạn phải đăng nhập mới sử dụng được hệ thống"
+    is_admin: "Bạn không phải là admin nên không dùng được chức năng này"
+    update_location: "Địa điểm đã được cập nhật."
+    update_fail: "Cập nhật thất bại"
+    fail: "Không thể thực hiện yêu cầu, thử lại"
+    comment: "Cảm ơn, bình luận của bạn"
+    update_booking:
+      not_exist_id: "Không tìm thấy id đơn hàng"
+      update_sucess: "Xử lý đơn hàng thành công"
+      update_fail: "Xử lý đơn hàng thất bại"
+      contains: "Biểu mẫu chứa %{errors}"
+      error: "lỗi"
+      check_current_user: "Sân này không phải do bạn đặt nên bạn không có quyền để hủy nó"
+      check_status: "Đơn hàng dã được admin xử lý."
+      check_status_edit: "Bạn không được phép chỉnh sửa dữ liệu của hệ thống"
+      check_booking_user: "Bạn chưa đặt sân này nên không thể cập nhật"
+    show_field:
+      not_exist_yard: "Không tìm thấy id sân bóng!"
+    booking:
+      pls_login: "Bạn phải đăng nhập mới được phép đặt sân"
+      booking_succ: "Đặt sân thành công"
+      booking_fail: "Đặt sân thất bại"
+      booking_succ_mess: "Cảm ơn bạn đã tin tưởng và lựa chọn sân bóng của chúng tôi!"
+      booking_fail_mess: "Hệ thống đã xảy ra lỗi vui lòng thử lại sau!"
+      booking_logic: "Bạn không thể đặt chỗ  trước thời gian hiện tại"
+
+  asession:
+    show:
+      danger: "Không tìm thấy người dùng"
+
+  search_view:
+    title: "Tìm kiếm Sân"
+    h1: "Tìm kiếm sân bóng đá"
+
+  form:
+      name: "Tên"
+      email: "Địa chỉ Email"
+      password: "Mật Khẩu"
+      passcofi: "Xác nhận mật khẩu"
+      phone: "Số điện thoại"
+      image: "Ảnh đại diện"
+
+  sessions:
+    new:
+      news:
+        title: "Đăng Nhập"
+        h1: "Đăng Nhập"
+        login: "Đăng Nhập"
+        newuser: "Người dùng mới"
+        signup: "Đăng kí"
+        remember: "Ghi nhớ mật khẩu"
+        email: "địa chỉ email"
+        password: "Mật Khẩu"
+        or: "Hoặc"
+        facebook: "Đăng nhập bằng Facebook"
+        google: "Đăng nhập bằng  Google"
+  time:
+    formats:
+      default: "%d-%m-%Y"
+
+  send_email:
+    link: "Đường dẫn"
+    detail: "Chi tiết"
+    title_booking: "Nhấn vào đường dẫn để xem"
+    greeting_admin: "Xin chào! Quản trị viên."
+    greeting_user: "Xin chào! Người dùng."
+    sub_booking: "Xác nhận đặt sân!"
+    sub_cancel_user: "Thông báo hủy đặt sân từ người dùng!"
+    content_cancel_user: "Người dùng đã hủy bỏ việc đặt sân."
+    sub_cancel_admin: "Thông báo hủy đặt sân từ quản trị viên!"
+    content_cancel_admin: "Quản trị viên đã hủy bỏ việc đặt sân."
+    sub_accept: "Thông báo đặt sân thành công!"
+    sub_reject: "Thông báo về việc từ chối đặt sân từ quản trị viên!"
+    content_reject: "Quản trị viên đã từ chối việc đặt sân của bạn."

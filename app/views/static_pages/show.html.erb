@@ -1,0 +1,42 @@
+<% provide(:title, t("detail.name")) %>
+<% provide(:base_title, t("base.title")) %>
+<div class="col-lg-9">
+
+  <!-- slide-->
+  <%= render "slide" %>
+
+  <!-- title yard-->
+  <div class="row">
+    <h3><%= @location.name %></h3>
+  </div>
+
+  <!-- Rating -->
+  <div class="row">
+    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+  </div>
+
+  <!-- Button booking -->
+  <div class="row justify-content-end mb-4">
+    <%= render partial: "form_search_for_booking", object: @times%>
+  </div>
+
+  <!-- Address -->
+  <div class="row location">
+    <p><%= t "home.address"%> <%= @location.address %></p>
+    <p><%= t "home.phone"%> <%= @location.phone %></p>
+  </div>
+
+  <!-- Description -->
+  <div class="row">
+    <p class="content-yard">
+      <%= @location.description %>
+    </p>
+  </div>
+
+    <!-- Comment -->
+    <%= render "comments/form" %>
+    <%= render @comments %>
+
+  </div>
+</div>
+<%= javascript_pack_tag "reply.js" %>

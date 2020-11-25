@@ -1,0 +1,15 @@
+<div class="widget-area no-padding blank">
+  <div class="status-upload">
+    <% if logged_in? %>
+      <%= form_for @comment  do |f| %>
+        <%= f.hidden_field :location_id, value: @location.id %>
+        <%= f.text_area :content, required: true %>
+        <%= f.submit t("detail.comment"),class: "btn btn-success green" %>
+      <% end %>
+    <% else %>
+      <p> <%= t "login.message" %>
+        <%= link_to t("login.click"),login_path %>
+      </p>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+<tr class="table-<%= handle_layout booking.status %>">
+  <td><img src="/assets/anh01.jpeg" alt="San1" class="img-booking"></td>
+  <td ><%= booking&.location_name %></td>
+  <td><%= booking&.yard_type_yard %></td>
+  <td><%= booking&.time_cost_time %></td>
+  <td><%= booking&.yard_code %></td>
+  <td>
+    <% if booking.pending? %>
+      <%= button_tag t("booking.btn_handle"), type: "button", class: "btn btn-danger", data: {toggle: "modal", target: "#model#{booking.id}"} %>
+    <% else %>
+      <%= button_tag t("booking.btn_view"), type: "button", class: "btn btn-primary", data: {toggle: "modal", target: "#model#{booking.id}"} %>
+    <% end %>
+    <!-- Button handle booking -->
+    <div class="modal fade" id="model<%= booking.id %>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle"><%= t "booking.detail_booking.detail" %></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-left">
+            <h3 class="text-center font-weight-bold"><%= t "booking.detail_booking.status" %> <%= handle_name_status booking.status %></h3>
+            <h5><%= t "booking.detail_booking.date_booking" %> <%= booking&.created_at.strftime("%d/%m/%Y") %></h5>
+            <h5><%= t "booking.detail_booking.time_booking" %> <%= booking&.created_at.strftime("%k:%M") %></h5>
+            <h5><%= t "booking.detail_booking.field" %> <%= booking&.location_name %></h5>
+            <h5><%= t "booking.detail_booking.phone_yard" %> <%= booking&.location_phone %></h5>
+            <h5><%= t "booking.detail_booking.date" %> <%= booking&.booking_date %></h5>
+            <h5><%= t "booking.detail_booking.time" %> <%= booking&.time_cost_time %></h5>
+            <h5><%= t "booking.detail_booking.code" %> <%= booking&.yard_code %></h5>
+            <h5><%= t "booking.detail_booking.cost" %> <%= booking&.time_cost_cost %> VND</h5>
+          </div>
+          <div class="modal-footer">
+            <% if booking.pending? %>
+              <%= button_tag t("booking.detail_booking.btn_cancel"), type: "button", class: "btn btn-danger handle-cancel-booking",
+                data: {id: "#{booking.id}", stt: "cancel"} %>
+            <% end %>
+            <%= button_tag t("booking.detail_booking.btn_exit"), type: "button", class: "btn btn-secondary", data: {dismiss: "modal"} %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </td>
+</tr>

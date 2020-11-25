@@ -1,0 +1,6 @@
+$('#result_yards').html('')
+<% if @yards.blank? %>
+  $('#result_yards').append('<%= j render "yards/err_yard" %>')
+<% else %>
+  $('#result_yards').append('<%= j render partial: "yards/yard", collection: @yards %>');
+<% end %>

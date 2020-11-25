@@ -1,0 +1,35 @@
+<div class="col-sm-2">
+  <%= link_to t("booking.name"), "#", class: "btn btn-primary btn-booking", data: {toggle:"modal", target:"#exampleModal"} %>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><%= t "detail.choose" %></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <%= form_tag user_seach_yard_for_booking_path, method: :get, remote: true do %>
+          <label><%= t "detail.date" %></label>
+          <%= date_field_tag :date, val_date() %>
+          <br>
+          <label for="hours"><%= t "detail.time" %></label>
+          <%= select_tag :hours, options_for_select(@times) %>
+          <br>
+          <label for="type"><%= t "detail.type" %></label>
+          <%= select_tag :type_yard, raw("<option selected='selected'>5</option><option>7</option><option>11</option>") %>
+          <hr>
+          <div class="col-xl-12 d-flex justify-content-end">
+            <%= button_tag t("booking.search"), type: "submit", class: "btn btn-success" %>
+          </div>
+          <%= hidden_field_tag :location_id, @location.id %>
+        <% end %>
+        <div id="result_yards" class="row show-yard-seach">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%= javascript_pack_tag 'booking', 'data-turbolinks-track': 'reload' %>

@@ -1,0 +1,268 @@
+en:
+  base:
+    title: "Let's order a football field !!!"
+    name: "Football Yard"
+    location: "Location"
+    cancel: "Cancel"
+    search: "Search Soccer Field"
+
+  home:
+    name: "Home"
+    address: "Address: "
+    phone: "Number phone: "
+    previous: "Previous"
+    next: "Next"
+    option: "Option"
+    description: "Description"
+    save: "Save"
+    login: "Login"
+    account: "Account"
+    profile: "Profile"
+    setting: "Setting"
+    logout: "Logout"
+    user: "User"
+
+    account: "Account"
+    profile: "Profile"
+    setting: "Setting"
+    logout: "Logout"
+    user: "User"
+  booking:
+    name: "Booking"
+    yard_name: "Yard Name"
+    yard_code: "Yard Code"
+    yard_type: "Yard Type"
+    total: "Total:"
+    delete: "delete"
+    price: "Price"
+    edit: "Edit"
+    new: "New"
+    search: "Seach"
+    title_admin:
+      image: "Image"
+      name: "Name"
+      type: "Type Field"
+      time: "Time"
+      code: "Code Field"
+    detail_booking:
+      detail: "Detail booking"
+      status: "Status:"
+      date_booking: "Date of booking:"
+      date: "Date:"
+      time_booking: "Time of booking:"
+      name_booking: "Name of booking:"
+      phone_booking: "Phone of booking:"
+      field: "Field:"
+      time: "Time slot:"
+      code: "Field code:"
+      cost: "Field cost:"
+      btn_submit: "Accept"
+      btn_cancel: "Reject"
+      btn_exit: "Exit"
+      phone_yard: "Phone of field:"
+    btn_handle: "Handle"
+    btn_view: "View"
+    status:
+      pending: "Pending"
+      accept: "Accept"
+      rejected: "Rejected"
+      cancel: "Cancel"
+
+  login:
+    name: "Login"
+    message: "Please login to comment"
+    click: "Click here"
+
+  detail:
+    choose: "Choose the yard"
+    date: "Date"
+    time: "Time"
+    type: "Type"
+    comment: "Comment"
+    reply: "reply"
+    name: "Detail"
+
+  district:
+    name: "District"
+    tk: "Thanh Khe District"
+    st: "Son Tra District"
+    nhs: "Ngu Hanh Son District"
+    lc: "Lien Chieu District"
+    hc: "Hai Chau District"
+    cl: "Cam Le District"
+    hv: "Hoa Vang District"
+    hs: "Hoang Sa Archipelago"
+
+  app_contro:
+    danger: "User not found"
+
+  user_model:
+    error_type: "must be a PNG or JPG"
+    error_size: "is over 1MB"
+
+  create:
+    success: "Create Success"
+    unsuccess: " Create Account Unsuccess"
+
+  show:
+    warning: "User does not exist"
+
+  update:
+    success: "Profile updated"
+
+  destroy:
+    success: "User Delete"
+
+  load_user:
+    warning: "User not found!"
+
+  log_in:
+    danger: "Please login !"
+
+  search:
+    danger: "Empty data!"
+
+  users:
+    new:
+      newu:
+        title: "Registration"
+        h1: "Regiter"
+        confirmation: "Confirm password"
+        phone: "Number phone"
+        createAccount: "Create account"
+
+  shared:
+    error_messages:
+      contains: "The form contains %{errors}"
+      error: "error"
+
+  show:
+    about: "Information"
+    userid: "User Id"
+    name: "Name"
+    email: "Email Address"
+    phone: "Phone Number"
+    changeima: "Change image"
+
+  edit:
+    title: "Edit"
+    h1: "Edit Form"
+    savechange: "Save change"
+
+  index:
+    title: "List of users"
+    h1: "List of users"
+    delete: "Delete"
+    sure: "You sure"
+
+  menu_manager:
+    title: "Feature"
+    booking_field: "Booking Field Management"
+    user: "User Management"
+    revenue: "Revenue Management"
+    field: "Field Management"
+
+  message:
+    pls_login: "You must be logged in to use the system."
+    is_admin: "You are not an admin so you cannot use this function."
+    update_location: "locations was updated."
+    update_fail: "Update fail"
+    fail: "Unable to execute request, try again"
+    comment: "Thank, your comment"
+    update_booking:
+      not_exist_id: "Order id not found!"
+      update_sucess: "Order processing successfully!"
+      update_fail: "Order processing failed!"
+      contains: "The form contains %{errors}"
+      error: "error"
+      check_current_user: "This course is not reserved by you so you do not have the right to cancel it"
+      check_status: "Orders have been processed by the admin"
+      check_status_edit: "You are not allowed to edit the system data"
+      check_booking_user: "You have not booked this course so you cannot update it"
+    show_field:
+      not_exist_yard: "Field is not found!"
+    booking:
+      pls_login: "You must be logged in to booking yard"
+      booking_succ: "Booking success"
+      booking_fail: "Booking failed"
+      booking_succ_mess: "Thank you for choosing our soccer field!"
+      booking_fail_mess: "There was an error in the system, please try again later!"
+      booking_logic: "You cannot make a reservation before the current time"
+
+  asession:
+    show:
+      danger: "No user found"
+  search_view:
+    title: "Seach Yard"
+    h1: "Search Soccer yard"
+
+  form:
+    name: "Full Name"
+    email: "Email Address"
+    password: "Password"
+    passconfi: "Password confirmation"
+    phone: "Number Phone"
+    image: "Profile photo"
+
+  newu:
+    title: "Sigup"
+    h1: "Signup"
+    confirmation: "Password Confirmation"
+    phone: "Number Phone"
+    createAccount: "Create Account"
+  show:
+    about: "Information"
+    userid: "User Id"
+    name: "Name"
+    email: "Email Address"
+    phone: "Phone Number"
+    changeima: "Change image"
+  edit:
+    title: "Edit"
+    h1: "Edit Form"
+    savechange: "Save change"
+
+  index:
+    title: "List of users"
+    h1: "List of users"
+    delete: "Delete"
+    sure: "You sure"
+
+  asession:
+    show:
+      warning: "No user found"
+
+  sessions:
+    new:
+      news:
+        title: "Log in"
+        h1: "Log in"
+        password: "Password"
+        login: "Login"
+        newuser: "New User?"
+        signup: "Signup"
+        remember: "Remember me"
+        email: "Email address"
+        password: "Password"
+        or: "OR"
+        facebook: "Sign in with Facebook"
+        google: "Sign in with Google"
+
+  time:
+    formats:
+      default: "%d-%m-%Y"
+
+  send_email:
+    link: "Link"
+    detail: "Detail"
+    title_booking: "Click on the link to view"
+    greeting_admin: "Hello! Admin."
+    greeting_user: "Hello! User."
+    sub_booking: "Confirm reservation!"
+    sub_cancel_user: "Notification cancel booking!"
+    content_cancel_user: "User has canceled a field"
+    sub_cancel_admin: "Notification cancel booking!"
+    content_cancel_admin: "Admin has canceled a field"
+    sub_accept: "Notification booking success!"
+    sub_reject: "Confirm booking failure!"
+    content_reject: "Admin has rejected a field"
